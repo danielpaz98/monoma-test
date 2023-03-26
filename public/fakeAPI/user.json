@@ -1,0 +1,12 @@
+{
+	"user": {
+		"id": "98c02acf-3e6c-4164-963e-f6269f06fda1",
+		"firstName": "Test",
+		"lastName": "Test",
+		"avatar": "https://api.dicebear.com/5.x/personas/svg?seed=Lucky&backgroundColor=e7e7ff",
+		"email": "test@test.com",
+		"password": "123456",
+		"createdAt": "2023-03-23",
+		"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ijk4YzAyYWNmLTNlNmMtNDE2NC05NjNlLWY2MjY5ZjA2ZmRhMSIsImZpcnN0TmFtZSI6IlRlc3QiLCJsYXN0TmFtZSI6IlRlc3QiLCJhdmF0YXIiOiJodHRwczovL2FwaS5kaWNlYmVhci5jb20vNS54L3BlcnNvbmFzL3N2Zz9zZWVkPUphY2smYmFja2dyb3VuZENvbG9yPWU3ZTdmZiIsImVtYWlsIjoidGVzdEB0ZXN0LmNvbSIsImNyZWF0ZWRBdCI6IjIwMjMtMDMtMjMifQ.38-klKcFrVLuJV7gyKSUvEHoOfCDP0pyDZyEBICPo4E"
+	}
+}
