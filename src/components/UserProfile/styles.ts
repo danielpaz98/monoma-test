@@ -2,7 +2,7 @@ import tw from "twin.macro";
 
 export const Styles = {
 	Container: tw.div``,
-	Content: tw.div`mt-5 grid grid-cols-[30%_40%] justify-around`,
+	Content: tw.div`mt-5 flex flex-wrap gap-10 md:grid md:grid-cols-[30%_40%] justify-around`,
 	AvatarContent: tw.div` grid place-items-center`,
 	UserInfo: tw.div``,
 	UserInfoTitle: tw.h3`text-2xl text-neutral-4 font-bold`,
