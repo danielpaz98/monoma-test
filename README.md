@@ -51,7 +51,7 @@ $ git clone https://github.com/danielpaz98/monoma-test
 # Install dependencies
 $ pnpm install
 
-# Serve with hot reload at localhost:5173
+# Serve with hot reload at localhost:3000
 $ pnpm dev
 
 # Build for production and launch server
