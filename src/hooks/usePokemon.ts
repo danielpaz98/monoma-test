@@ -1,15 +1,14 @@
 import { useEffect, useState } from "react";
-// PLUGINS
-import { useParams } from "react-router-dom";
 // HOOKS
 import usePokemons from "~/hooks/usePokemons";
 // SERVICES
 import { getPokemonById as getPokemonByIdService } from "~/services";
 
-export default function usePokemon() {
-	const params = useParams();
-	const id = parseInt(params.id as string);
+type HookParams = {
+	id: number;
+};
 
+export default function usePokemon({ id }: HookParams) {
 	const [isLoading, setIsLoading] = useState(false);
 	const [isError, setIsError] = useState(false);
 	const { pokemons } = usePokemons();

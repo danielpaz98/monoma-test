@@ -1,5 +1,5 @@
 // PLUGINS
-import { Navigate } from "react-router-dom";
+import { useParams, Navigate } from "react-router-dom";
 // LAYOUTS
 import MainLayout from "~/layouts/MainLayout";
 // COMPONENTS
@@ -8,7 +8,9 @@ import { DetailCard, Loader } from "~/components";
 import usePokemon from "~/hooks/usePokemon";
 
 const PokemonPage = () => {
-	const { pokemon, isLoading, isError } = usePokemon();
+	const params = useParams();
+	const id = parseInt(params.id as string);
+	const { pokemon, isLoading, isError } = usePokemon({ id });
 
 	if (isError) return <Navigate replace to="/404" />;
 
