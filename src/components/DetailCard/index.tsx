@@ -47,7 +47,7 @@ const DetailCard = ({
 							</li>
 						))}
 
-						<Styles.Badge className="flex-shrink-0 ml-auto">Peso: {weight}</Styles.Badge>
+						<Styles.Badge className="flex-shrink-0 ml-auto">Peso: {weight / 10} kg</Styles.Badge>
 					</ul>
 				</Styles.Content>
 			</Styles.Figure>
